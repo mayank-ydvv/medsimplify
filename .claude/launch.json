@@ -1,0 +1,43 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "medsimplify-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "web",
+        "run",
+        "dev"
+      ],
+      "port": 5173,
+      "autoPort": false
+    },
+    {
+      "name": "medsimplify-api",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-c",
+        "import sys, glob; sys.path[:0]=glob.glob('api/.venv/lib/python3*/site-packages'); import uvicorn; uvicorn.run('app.main:app', app_dir='api', host='127.0.0.1', port=8000)"
+      ],
+      "port": 8000,
+      "autoPort": false
+    },
+    {
+      "name": "medsimplify-web-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "web",
+        "run",
+        "preview",
+        "--",
+        "--port",
+        "4173",
+        "--strictPort"
+      ],
+      "port": 4173,
+      "autoPort": false
+    }
+  ]
+}
