@@ -1,0 +1,1925 @@
+{
+ "_ui": {
+  "n_of_m_within": "{n} of {m} within range.",
+  "is_low": "{test} is low.",
+  "is_high": "{test} is high.",
+  "is_slightly_low": "{test} is slightly low.",
+  "is_slightly_high": "{test} is slightly high.",
+  "is_critical": "{test} needs prompt attention.",
+  "no_range": "There was no range to compare this number with, so we can't say whether it is high or low. Ask your doctor what it means for you."
+ },
+ "_panels": {
+  "cbc": "Blood Count",
+  "liver": "Liver",
+  "kidney": "Kidney",
+  "thyroid": "Thyroid",
+  "lipids": "Lipids",
+  "diabetes": "Diabetes",
+  "vitamins": "Vitamins & Minerals",
+  "inflammation": "Inflammation",
+  "urine": "Urine"
+ },
+ "_generic": {
+  "measures": "This test is part of your {panel} check. Your doctor uses it together with your other results.",
+  "low": {
+   "means": "Your result is below the range on your report.",
+   "causes": [
+    "Many everyday things can change this value",
+    "Some medicines can affect it",
+    "Timing of the test and recent meals can matter"
+   ],
+   "ask": [
+    "What could explain this result?",
+    "Should this test be repeated?",
+    "Is there anything I should change before the next test?"
+   ]
+  },
+  "high": {
+   "means": "Your result is above the range on your report.",
+   "causes": [
+    "Many everyday things can change this value",
+    "Some medicines can affect it",
+    "Timing of the test and recent meals can matter"
+   ],
+   "ask": [
+    "What could explain this result?",
+    "Should this test be repeated?",
+    "Is there anything I should change before the next test?"
+   ]
+  },
+  "normal": {
+   "means": "Your result is within the normal range on your report.",
+   "ask": [
+    "How often should this test be checked?"
+   ]
+  }
+ },
+ "HGB": {
+  "measures": "Haemoglobin is the protein in red blood cells that carries oxygen from your lungs to the rest of your body.",
+  "low": {
+   "means": "Your haemoglobin is below the range. This means your blood may be carrying less oxygen than usual. Only a doctor can say why it is low.",
+   "causes": [
+    "Low iron in the body",
+    "Low vitamin B12 or folate",
+    "Blood loss, such as heavy periods or bleeding in the gut",
+    "Long-term kidney problems"
+   ],
+   "ask": [
+    "Why might my haemoglobin be low?",
+    "Should I have my iron, B12 and folate checked?",
+    "Do I need a supplement or a change in diet?",
+    "When should I repeat this test?"
+   ]
+  },
+  "high": {
+   "means": "Your haemoglobin is above the range. Your blood has more red cells or haemoglobin than usual.",
+   "causes": [
+    "Not drinking enough water before the test",
+    "Smoking",
+    "Living at high altitude",
+    "Some lung or heart conditions"
+   ],
+   "ask": [
+    "What might cause my haemoglobin to be high?",
+    "Should I repeat the test after drinking more water?",
+    "Do I need any other tests?"
+   ]
+  },
+  "normal": {
+   "means": "Your haemoglobin is within the normal range on your report.",
+   "ask": [
+    "How often should I check my haemoglobin?"
+   ]
+  }
+ },
+ "RBC": {
+  "measures": "This counts your red blood cells. These cells carry oxygen around your body.",
+  "low": {
+   "means": "You have fewer red blood cells than the range.",
+   "causes": [
+    "Low iron, B12 or folate",
+    "Blood loss",
+    "Long-term illness"
+   ],
+   "ask": [
+    "Why might my red cell count be low?",
+    "Should other blood tests be done?"
+   ]
+  },
+  "high": {
+   "means": "You have more red blood cells than the range.",
+   "causes": [
+    "Not drinking enough water",
+    "Smoking",
+    "Some lung or heart conditions"
+   ],
+   "ask": [
+    "What might cause a high red cell count?",
+    "Should I repeat this test?"
+   ]
+  },
+  "normal": {
+   "means": "Your red cell count is within the normal range on your report.",
+   "ask": [
+    "How often should I check my blood count?"
+   ]
+  }
+ },
+ "WBC": {
+  "measures": "This counts your white blood cells. These cells help your body fight infection.",
+  "low": {
+   "means": "You have fewer white blood cells than the range. Your body may be less able to fight germs.",
+   "causes": [
+    "A recent viral infection",
+    "Some medicines",
+    "Low B12 or folate",
+    "Problems with how the bone marrow makes cells"
+   ],
+   "ask": [
+    "Why might my white cell count be low?",
+    "Do I need to take extra care to avoid infections?",
+    "When should this be rechecked?"
+   ]
+  },
+  "high": {
+   "means": "You have more white blood cells than the range. This often happens when the body is fighting something.",
+   "causes": [
+    "An infection",
+    "Stress on the body, such as surgery",
+    "Steroid medicines",
+    "Some blood conditions"
+   ],
+   "ask": [
+    "Could I have an infection?",
+    "Do I need more tests?",
+    "When should this be rechecked?"
+   ]
+  },
+  "normal": {
+   "means": "Your white cell count is within the normal range on your report.",
+   "ask": [
+    "How often should I check my blood count?"
+   ]
+  }
+ },
+ "PLT": {
+  "measures": "Platelets are tiny blood cells that help your blood clot and stop bleeding.",
+  "low": {
+   "means": "You have fewer platelets than the range. You may bruise or bleed more easily.",
+   "causes": [
+    "A recent viral infection such as dengue",
+    "Some medicines",
+    "Liver problems",
+    "Problems with how the bone marrow makes cells"
+   ],
+   "ask": [
+    "Why might my platelets be low?",
+    "Should I watch for bruising or bleeding?",
+    "Do I need to stop any medicine?"
+   ]
+  },
+  "high": {
+   "means": "You have more platelets than the range.",
+   "causes": [
+    "Recent infection or inflammation",
+    "Low iron",
+    "Some blood conditions"
+   ],
+   "ask": [
+    "What might raise my platelet count?",
+    "Do I need more tests?"
+   ]
+  },
+  "normal": {
+   "means": "Your platelet count is within the normal range on your report.",
+   "ask": [
+    "How often should I check my platelets?"
+   ]
+  }
+ },
+ "MCV": {
+  "measures": "MCV is the average size of your red blood cells.",
+  "low": {
+   "means": "Your red cells are smaller than usual.",
+   "causes": [
+    "Low iron",
+    "Some inherited blood traits"
+   ],
+   "ask": [
+    "Should my iron levels be checked?"
+   ]
+  },
+  "high": {
+   "means": "Your red cells are larger than usual.",
+   "causes": [
+    "Low vitamin B12 or folate",
+    "Alcohol use",
+    "Thyroid or liver problems"
+   ],
+   "ask": [
+    "Should my B12 and folate be checked?"
+   ]
+  },
+  "normal": {
+   "means": "Your red cell size is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "MCH": {
+  "measures": "MCH is the average amount of haemoglobin inside each red blood cell.",
+  "low": {
+   "means": "Each red cell holds less haemoglobin than usual.",
+   "causes": [
+    "Low iron",
+    "Some inherited blood traits"
+   ],
+   "ask": [
+    "Should my iron levels be checked?"
+   ]
+  },
+  "high": {
+   "means": "Each red cell holds more haemoglobin than usual, often because the cells are larger.",
+   "causes": [
+    "Low vitamin B12 or folate",
+    "Liver or thyroid problems"
+   ],
+   "ask": [
+    "Should my B12 and folate be checked?"
+   ]
+  },
+  "normal": {
+   "means": "Your MCH is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "MCHC": {
+  "measures": "MCHC shows how concentrated the haemoglobin is inside your red blood cells.",
+  "low": {
+   "means": "The haemoglobin in your red cells is less concentrated than usual.",
+   "causes": [
+    "Low iron",
+    "Some inherited blood traits"
+   ],
+   "ask": [
+    "Should my iron levels be checked?"
+   ]
+  },
+  "high": {
+   "means": "The haemoglobin in your red cells is more concentrated than usual.",
+   "causes": [
+    "Some red cell shape conditions",
+    "A sample handling issue"
+   ],
+   "ask": [
+    "Should this test be repeated?"
+   ]
+  },
+  "normal": {
+   "means": "Your MCHC is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "NEUT": {
+  "measures": "Neutrophils are the most common white blood cells. They fight bacteria.",
+  "low": {
+   "means": "You have a smaller share of neutrophils than usual.",
+   "causes": [
+    "A recent viral infection",
+    "Some medicines"
+   ],
+   "ask": [
+    "Do I need to take extra care to avoid infections?"
+   ]
+  },
+  "high": {
+   "means": "You have a larger share of neutrophils than usual.",
+   "causes": [
+    "A bacterial infection",
+    "Stress on the body",
+    "Steroid medicines"
+   ],
+   "ask": [
+    "Could I have an infection?"
+   ]
+  },
+  "normal": {
+   "means": "Your neutrophil share is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "LYMPH": {
+  "measures": "Lymphocytes are white blood cells that fight viruses and help your immune memory.",
+  "low": {
+   "means": "You have a smaller share of lymphocytes than usual.",
+   "causes": [
+    "Stress on the body",
+    "Steroid medicines",
+    "Some infections"
+   ],
+   "ask": [
+    "What could explain this?"
+   ]
+  },
+  "high": {
+   "means": "You have a larger share of lymphocytes than usual.",
+   "causes": [
+    "A recent viral infection",
+    "Some blood conditions"
+   ],
+   "ask": [
+    "Could I have a viral infection?",
+    "Should this be rechecked?"
+   ]
+  },
+  "normal": {
+   "means": "Your lymphocyte share is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "EOS": {
+  "measures": "Eosinophils are white blood cells linked to allergies and some infections.",
+  "low": {
+   "means": "You have a smaller share of eosinophils than usual. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Stress on the body",
+    "Steroid medicines"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "You have a larger share of eosinophils than usual.",
+   "causes": [
+    "Allergies or asthma",
+    "Worm infections",
+    "Some skin conditions"
+   ],
+   "ask": [
+    "Could allergies explain this?",
+    "Do I need a stool test?"
+   ]
+  },
+  "normal": {
+   "means": "Your eosinophil share is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other blood results?"
+   ]
+  }
+ },
+ "PCV": {
+  "measures": "PCV, also called haematocrit, is the share of your blood made up of red cells.",
+  "low": {
+   "means": "Red cells make up less of your blood than usual.",
+   "causes": [
+    "Low iron, B12 or folate",
+    "Blood loss"
+   ],
+   "ask": [
+    "Why might my PCV be low?"
+   ]
+  },
+  "high": {
+   "means": "Red cells make up more of your blood than usual.",
+   "causes": [
+    "Not drinking enough water",
+    "Smoking",
+    "Some lung conditions"
+   ],
+   "ask": [
+    "Should I repeat this after drinking more water?"
+   ]
+  },
+  "normal": {
+   "means": "Your PCV is within the normal range on your report.",
+   "ask": [
+    "How often should I check my blood count?"
+   ]
+  }
+ },
+ "TBIL": {
+  "measures": "Bilirubin is a yellow substance made when old red blood cells break down. The liver clears it.",
+  "low": {
+   "means": "Your bilirubin is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Some medicines"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your bilirubin is above the range. The liver may not be clearing it as fast as usual, or more red cells may be breaking down.",
+   "causes": [
+    "Liver inflammation",
+    "A blocked bile duct",
+    "Faster breakdown of red cells",
+    "A common inherited trait that raises bilirubin"
+   ],
+   "ask": [
+    "Why might my bilirubin be high?",
+    "Do I need a liver scan?",
+    "Should I avoid alcohol or any medicine?"
+   ]
+  },
+  "normal": {
+   "means": "Your bilirubin is within the normal range on your report.",
+   "ask": [
+    "How often should my liver tests be checked?"
+   ]
+  }
+ },
+ "DBIL": {
+  "measures": "Direct bilirubin is the part of bilirubin the liver has already processed.",
+  "low": {
+   "means": "Your direct bilirubin is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your direct bilirubin is above the range. Bile may not be draining from the liver as usual.",
+   "causes": [
+    "Liver inflammation",
+    "A blocked bile duct",
+    "Some medicines"
+   ],
+   "ask": [
+    "Do I need a liver or gallbladder scan?"
+   ]
+  },
+  "normal": {
+   "means": "Your direct bilirubin is within the normal range on your report.",
+   "ask": [
+    "How often should my liver tests be checked?"
+   ]
+  }
+ },
+ "AST": {
+  "measures": "SGOT, also called AST, is an enzyme found in the liver, heart and muscles. It leaks into the blood when these cells are stressed.",
+  "low": {
+   "means": "Your SGOT is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your SGOT is above the range. Some liver or muscle cells may be under stress.",
+   "causes": [
+    "Fatty liver",
+    "Alcohol",
+    "Some medicines",
+    "Hard exercise before the test"
+   ],
+   "ask": [
+    "Why might my SGOT be high?",
+    "Should I repeat this test?",
+    "Should I stop any medicine or alcohol?"
+   ]
+  },
+  "normal": {
+   "means": "Your SGOT is within the normal range on your report.",
+   "ask": [
+    "How often should my liver tests be checked?"
+   ]
+  }
+ },
+ "ALT": {
+  "measures": "SGPT, also called ALT, is an enzyme mostly found in the liver. When liver cells are stressed, more of it leaks into the blood.",
+  "low": {
+   "means": "Your SGPT is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your SGPT is above the range. This suggests some liver cells may be under stress. It does not tell you why.",
+   "causes": [
+    "Fat building up in the liver",
+    "Alcohol",
+    "Some medicines, including common pain relievers and some cholesterol medicines",
+    "A viral infection of the liver"
+   ],
+   "ask": [
+    "What could be raising my SGPT?",
+    "Should I have a liver ultrasound?",
+    "Could any of my medicines be affecting my liver?",
+    "When should I repeat my liver tests?"
+   ]
+  },
+  "normal": {
+   "means": "Your SGPT is within the normal range on your report.",
+   "ask": [
+    "How often should my liver tests be checked?"
+   ]
+  }
+ },
+ "ALP": {
+  "measures": "Alkaline phosphatase is an enzyme from the liver, bile ducts and bones.",
+  "low": {
+   "means": "Your ALP is below the range.",
+   "causes": [
+    "Low zinc or magnesium",
+    "Some medicines"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your ALP is above the range. The source can be the liver or the bones.",
+   "causes": [
+    "A blocked bile duct",
+    "Bone growth or healing",
+    "Low vitamin D"
+   ],
+   "ask": [
+    "Is this coming from my liver or my bones?",
+    "Do I need more tests?"
+   ]
+  },
+  "normal": {
+   "means": "Your ALP is within the normal range on your report.",
+   "ask": [
+    "How often should my liver tests be checked?"
+   ]
+  }
+ },
+ "ALB": {
+  "measures": "Albumin is the main protein in your blood. It is made by the liver and helps keep fluid inside blood vessels.",
+  "low": {
+   "means": "Your albumin is below the range.",
+   "causes": [
+    "Not eating enough protein",
+    "Liver problems",
+    "Protein lost in urine",
+    "Long-term illness"
+   ],
+   "ask": [
+    "Why might my albumin be low?",
+    "Should I eat more protein?"
+   ]
+  },
+  "high": {
+   "means": "Your albumin is above the range. This usually means you were low on water.",
+   "causes": [
+    "Not drinking enough water"
+   ],
+   "ask": [
+    "Should I repeat this after drinking more water?"
+   ]
+  },
+  "normal": {
+   "means": "Your albumin is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other results?"
+   ]
+  }
+ },
+ "TP": {
+  "measures": "Total protein is all the protein in your blood, mainly albumin and globulins.",
+  "low": {
+   "means": "Your total protein is below the range.",
+   "causes": [
+    "Not eating enough protein",
+    "Liver or kidney problems"
+   ],
+   "ask": [
+    "Why might my protein be low?"
+   ]
+  },
+  "high": {
+   "means": "Your total protein is above the range.",
+   "causes": [
+    "Not drinking enough water",
+    "Long-term inflammation",
+    "Some blood conditions"
+   ],
+   "ask": [
+    "Do I need a protein test called electrophoresis?"
+   ]
+  },
+  "normal": {
+   "means": "Your total protein is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other results?"
+   ]
+  }
+ },
+ "AGR": {
+  "measures": "The A/G ratio compares albumin with the other blood proteins, called globulins.",
+  "low": {
+   "means": "You have less albumin compared with globulins than usual.",
+   "causes": [
+    "Long-term inflammation",
+    "Liver or kidney problems"
+   ],
+   "ask": [
+    "What could explain my A/G ratio?"
+   ]
+  },
+  "high": {
+   "means": "You have more albumin compared with globulins than usual.",
+   "causes": [
+    "Low globulin levels",
+    "Not drinking enough water"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "normal": {
+   "means": "Your A/G ratio is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my other results?"
+   ]
+  }
+ },
+ "UREA": {
+  "measures": "Urea is a waste product from breaking down protein. Your kidneys remove it from the blood.",
+  "low": {
+   "means": "Your urea is below the range.",
+   "causes": [
+    "Low protein diet",
+    "Liver problems",
+    "Drinking a lot of water"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your urea is above the range. Your kidneys may be clearing waste more slowly, or you may be low on water.",
+   "causes": [
+    "Not drinking enough water",
+    "A high protein diet",
+    "Kidney problems",
+    "Some medicines"
+   ],
+   "ask": [
+    "Is my kidney function changing?",
+    "Should I drink more water?"
+   ]
+  },
+  "normal": {
+   "means": "Your urea is within the normal range on your report.",
+   "ask": [
+    "How often should my kidney tests be checked?"
+   ]
+  }
+ },
+ "BUN": {
+  "measures": "BUN measures the nitrogen from urea in your blood. It shows how well your kidneys remove waste.",
+  "low": {
+   "means": "Your BUN is below the range.",
+   "causes": [
+    "Low protein diet",
+    "Liver problems"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your BUN is above the range.",
+   "causes": [
+    "Not drinking enough water",
+    "Kidney problems",
+    "A high protein diet"
+   ],
+   "ask": [
+    "Is my kidney function changing?"
+   ]
+  },
+  "normal": {
+   "means": "Your BUN is within the normal range on your report.",
+   "ask": [
+    "How often should my kidney tests be checked?"
+   ]
+  }
+ },
+ "CREAT": {
+  "measures": "Creatinine is a waste product from your muscles. Your kidneys filter it out of the blood, so it shows how well they are working.",
+  "low": {
+   "means": "Your creatinine is below the range. This often reflects lower muscle mass.",
+   "causes": [
+    "Lower muscle mass",
+    "Weight loss",
+    "Pregnancy"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your creatinine is above the range. Your kidneys may be filtering more slowly than usual.",
+   "causes": [
+    "Not drinking enough water",
+    "Kidney problems",
+    "Some medicines, including some pain relievers",
+    "High blood pressure or high blood sugar over many years"
+   ],
+   "ask": [
+    "Is my kidney function changing?",
+    "Should my medicines be adjusted for my kidneys?",
+    "Do I need a urine test for protein?"
+   ]
+  },
+  "normal": {
+   "means": "Your creatinine is within the normal range on your report.",
+   "ask": [
+    "Has my creatinine changed since my last test?",
+    "How often should my kidney tests be checked?"
+   ]
+  }
+ },
+ "URIC": {
+  "measures": "Uric acid is a waste product from breaking down certain foods. Your kidneys remove it.",
+  "low": {
+   "means": "Your uric acid is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Some medicines",
+    "Low purine diet"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your uric acid is above the range. High levels can form crystals in joints.",
+   "causes": [
+    "Red meat, seafood or alcohol",
+    "Kidneys clearing it slowly",
+    "Some water pills"
+   ],
+   "ask": [
+    "Do I need to change my diet?",
+    "Could this explain any joint pain?"
+   ]
+  },
+  "normal": {
+   "means": "Your uric acid is within the normal range on your report.",
+   "ask": [
+    "How often should this be checked?"
+   ]
+  }
+ },
+ "EGFR": {
+  "measures": "eGFR is an estimate of how much blood your kidneys filter each minute. It is worked out from your creatinine, age and sex.",
+  "low": {
+   "means": "Your eGFR is below the range. Your kidneys may be filtering less than usual.",
+   "causes": [
+    "Kidney problems",
+    "Age",
+    "Not drinking enough water",
+    "Some medicines"
+   ],
+   "ask": [
+    "What does my eGFR mean for my kidneys?",
+    "Should any medicines be adjusted?",
+    "When should this be rechecked?"
+   ]
+  },
+  "high": {
+   "means": "Your eGFR is above the range.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "normal": {
+   "means": "Your eGFR is within the normal range on your report.",
+   "ask": [
+    "How often should my kidney tests be checked?"
+   ]
+  }
+ },
+ "NA": {
+  "measures": "Sodium is a salt in your blood. It helps control water balance, nerves and muscles.",
+  "low": {
+   "means": "Your sodium is below the range. This can cause tiredness, confusion or falls, especially in older adults.",
+   "causes": [
+    "Some water pills or other medicines",
+    "Vomiting or diarrhoea",
+    "Drinking a lot of water",
+    "Heart, liver or kidney problems"
+   ],
+   "ask": [
+    "Why might my sodium be low?",
+    "Could my medicines be the cause?",
+    "Should I change how much I drink?"
+   ]
+  },
+  "high": {
+   "means": "Your sodium is above the range. This usually means your body is low on water.",
+   "causes": [
+    "Not drinking enough water",
+    "Fever or sweating",
+    "Some medicines"
+   ],
+   "ask": [
+    "Should I drink more water?",
+    "When should this be rechecked?"
+   ]
+  },
+  "normal": {
+   "means": "Your sodium is within the normal range on your report.",
+   "ask": [
+    "How often should my salts be checked?"
+   ]
+  }
+ },
+ "K": {
+  "measures": "Potassium is a salt in your blood. It helps your nerves and muscles work, including your heart muscle.",
+  "low": {
+   "means": "Your potassium is below the range. Low potassium can affect muscles and heart rhythm.",
+   "causes": [
+    "Some water pills",
+    "Vomiting or diarrhoea",
+    "Not eating enough"
+   ],
+   "ask": [
+    "Why might my potassium be low?",
+    "Do I need a supplement?",
+    "Should I have an ECG?"
+   ]
+  },
+  "high": {
+   "means": "Your potassium is above the range. High potassium can affect the rhythm of the heart, so doctors act on it quickly.",
+   "causes": [
+    "Kidneys removing potassium more slowly",
+    "Some blood pressure medicines",
+    "Potassium supplements or salt substitutes",
+    "A sample that was shaken or delayed, which can falsely raise the result"
+   ],
+   "ask": [
+    "Should this be repeated today?",
+    "Do I need an ECG?",
+    "Could any of my medicines be raising my potassium?",
+    "Should I avoid any foods or salt substitutes?"
+   ]
+  },
+  "normal": {
+   "means": "Your potassium is within the normal range on your report.",
+   "ask": [
+    "How often should my salts be checked?"
+   ]
+  }
+ },
+ "CL": {
+  "measures": "Chloride is a salt in your blood. It works with sodium to keep fluids balanced.",
+  "low": {
+   "means": "Your chloride is below the range.",
+   "causes": [
+    "Vomiting",
+    "Some water pills"
+   ],
+   "ask": [
+    "What could explain this?"
+   ]
+  },
+  "high": {
+   "means": "Your chloride is above the range.",
+   "causes": [
+    "Not drinking enough water",
+    "Diarrhoea",
+    "Kidney problems"
+   ],
+   "ask": [
+    "What could explain this?"
+   ]
+  },
+  "normal": {
+   "means": "Your chloride is within the normal range on your report.",
+   "ask": [
+    "How often should my salts be checked?"
+   ]
+  }
+ },
+ "CA": {
+  "measures": "Calcium is a mineral used for bones, nerves, muscles and heart rhythm.",
+  "low": {
+   "means": "Your calcium is below the range.",
+   "causes": [
+    "Low vitamin D",
+    "Low albumin, which can make calcium look low",
+    "Kidney problems",
+    "Low magnesium"
+   ],
+   "ask": [
+    "Should my vitamin D be checked?",
+    "Should my calcium be corrected for albumin?"
+   ]
+  },
+  "high": {
+   "means": "Your calcium is above the range.",
+   "causes": [
+    "An overactive gland in the neck called the parathyroid",
+    "Too much calcium or vitamin D supplement",
+    "Not drinking enough water"
+   ],
+   "ask": [
+    "Should my parathyroid hormone be checked?",
+    "Should I stop any supplements?"
+   ]
+  },
+  "normal": {
+   "means": "Your calcium is within the normal range on your report.",
+   "ask": [
+    "How often should this be checked?"
+   ]
+  }
+ },
+ "PHOS": {
+  "measures": "Phosphorus is a mineral that works with calcium to build bones and give cells energy.",
+  "low": {
+   "means": "Your phosphorus is below the range.",
+   "causes": [
+    "Low vitamin D",
+    "Poor diet",
+    "Some antacids"
+   ],
+   "ask": [
+    "What could explain this?"
+   ]
+  },
+  "high": {
+   "means": "Your phosphorus is above the range.",
+   "causes": [
+    "Kidney problems",
+    "Low parathyroid hormone"
+   ],
+   "ask": [
+    "Is my kidney function affecting this?"
+   ]
+  },
+  "normal": {
+   "means": "Your phosphorus is within the normal range on your report.",
+   "ask": [
+    "How often should this be checked?"
+   ]
+  }
+ },
+ "CHOL": {
+  "measures": "Total cholesterol is all the cholesterol in your blood. Cholesterol is a fat your body needs, but too much can build up in blood vessels.",
+  "low": {
+   "means": "Your total cholesterol is below the range.",
+   "causes": [
+    "Cholesterol medicines",
+    "Overactive thyroid",
+    "Poor diet"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your total cholesterol is above the recommended level.",
+   "causes": [
+    "Diet high in saturated fat",
+    "Genes that run in families",
+    "Low thyroid activity",
+    "Low physical activity"
+   ],
+   "ask": [
+    "What is my overall heart risk?",
+    "Do I need medicine for cholesterol?",
+    "What diet changes would help most?"
+   ]
+  },
+  "normal": {
+   "means": "Your total cholesterol is within the recommended range on your report.",
+   "ask": [
+    "How often should my cholesterol be checked?"
+   ]
+  }
+ },
+ "LDL": {
+  "measures": "LDL is often called 'bad' cholesterol. Over time it can build up in the walls of blood vessels.",
+  "low": {
+   "means": "Your LDL is below the range.",
+   "causes": [
+    "Cholesterol medicines",
+    "Overactive thyroid"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your LDL is above the recommended level. Higher LDL over many years raises the chance of blocked blood vessels.",
+   "causes": [
+    "Diet high in saturated fat, such as ghee, butter and fried food",
+    "Genes that run in families",
+    "Low physical activity",
+    "Low thyroid activity"
+   ],
+   "ask": [
+    "What LDL level should I aim for, given my other health conditions?",
+    "Would a cholesterol medicine help me?",
+    "What diet changes would help most?",
+    "When should I recheck my lipids?"
+   ]
+  },
+  "normal": {
+   "means": "Your LDL is within the recommended range on your report.",
+   "ask": [
+    "How often should my cholesterol be checked?"
+   ]
+  }
+ },
+ "HDL": {
+  "measures": "HDL is often called 'good' cholesterol. It helps carry extra cholesterol away from blood vessels.",
+  "low": {
+   "means": "Your HDL is below the recommended level. Less cholesterol is being carried away from your blood vessels.",
+   "causes": [
+    "Low physical activity",
+    "Smoking",
+    "Extra body weight",
+    "High blood sugar"
+   ],
+   "ask": [
+    "How can I raise my HDL?",
+    "What is my overall heart risk?"
+   ]
+  },
+  "high": {
+   "means": "Your HDL is above the range.",
+   "causes": [
+    "Regular exercise",
+    "Genes"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "normal": {
+   "means": "Your HDL is within the recommended range on your report.",
+   "ask": [
+    "How often should my cholesterol be checked?"
+   ]
+  }
+ },
+ "TG": {
+  "measures": "Triglycerides are the most common type of fat in your blood. Your body stores extra calories as triglycerides.",
+  "low": {
+   "means": "Your triglycerides are below the range.",
+   "causes": [
+    "Low fat diet",
+    "Overactive thyroid"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your triglycerides are above the recommended level.",
+   "causes": [
+    "Sweets, white rice, sugary drinks or alcohol",
+    "High blood sugar",
+    "Extra body weight",
+    "Not fasting before the test"
+   ],
+   "ask": [
+    "Was I fasting long enough for this test?",
+    "What diet changes would lower my triglycerides?",
+    "Is my blood sugar affecting this?"
+   ]
+  },
+  "normal": {
+   "means": "Your triglycerides are within the recommended range on your report.",
+   "ask": [
+    "How often should my lipids be checked?"
+   ]
+  }
+ },
+ "VLDL": {
+  "measures": "VLDL is a type of cholesterol that carries triglycerides in the blood.",
+  "low": {
+   "means": "Your VLDL is below the range.",
+   "causes": [
+    "Low triglycerides"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your VLDL is above the range. It usually rises along with triglycerides.",
+   "causes": [
+    "High triglycerides",
+    "High blood sugar",
+    "Alcohol"
+   ],
+   "ask": [
+    "How can I lower my triglycerides?"
+   ]
+  },
+  "normal": {
+   "means": "Your VLDL is within the normal range on your report.",
+   "ask": [
+    "How often should my lipids be checked?"
+   ]
+  }
+ },
+ "CHOLHDL": {
+  "measures": "This ratio compares total cholesterol with HDL. A lower ratio is better for blood vessels.",
+  "low": {
+   "means": "Your ratio is below the range.",
+   "causes": [
+    "High HDL"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your ratio is above the recommended level. There is a lot of total cholesterol compared with 'good' HDL.",
+   "causes": [
+    "High LDL",
+    "Low HDL"
+   ],
+   "ask": [
+    "What is my overall heart risk?"
+   ]
+  },
+  "normal": {
+   "means": "Your ratio is within the recommended range on your report.",
+   "ask": [
+    "How often should my lipids be checked?"
+   ]
+  }
+ },
+ "TSH": {
+  "measures": "TSH is a signal from the brain that tells your thyroid gland how hard to work.",
+  "low": {
+   "means": "Your TSH is below the range. This can mean the thyroid is making more hormone than needed.",
+   "causes": [
+    "An overactive thyroid",
+    "Too high a dose of thyroid medicine"
+   ],
+   "ask": [
+    "Should my T3 and T4 be checked?",
+    "Does my thyroid dose need changing?"
+   ]
+  },
+  "high": {
+   "means": "Your TSH is above the range. This can mean the thyroid is not making enough hormone.",
+   "causes": [
+    "An underactive thyroid",
+    "Too low a dose of thyroid medicine",
+    "Recent illness"
+   ],
+   "ask": [
+    "Should my T3 and T4 be checked?",
+    "Do I need thyroid medicine?"
+   ]
+  },
+  "normal": {
+   "means": "Your TSH is within the normal range on your report.",
+   "ask": [
+    "How often should my thyroid be checked?"
+   ]
+  }
+ },
+ "T3": {
+  "measures": "T3 is one of the two main thyroid hormones. It controls how fast your body uses energy.",
+  "low": {
+   "means": "Your T3 is below the range.",
+   "causes": [
+    "An underactive thyroid",
+    "Recent illness"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "high": {
+   "means": "Your T3 is above the range.",
+   "causes": [
+    "An overactive thyroid",
+    "Too much thyroid medicine"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "normal": {
+   "means": "Your T3 is within the normal range on your report.",
+   "ask": [
+    "How often should my thyroid be checked?"
+   ]
+  }
+ },
+ "T4": {
+  "measures": "T4 is the main hormone made by the thyroid gland.",
+  "low": {
+   "means": "Your T4 is below the range.",
+   "causes": [
+    "An underactive thyroid"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "high": {
+   "means": "Your T4 is above the range.",
+   "causes": [
+    "An overactive thyroid",
+    "Too much thyroid medicine"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "normal": {
+   "means": "Your T4 is within the normal range on your report.",
+   "ask": [
+    "How often should my thyroid be checked?"
+   ]
+  }
+ },
+ "FT3": {
+  "measures": "Free T3 is the active thyroid hormone that is free to work in your body.",
+  "low": {
+   "means": "Your free T3 is below the range.",
+   "causes": [
+    "An underactive thyroid",
+    "Recent illness"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "high": {
+   "means": "Your free T3 is above the range.",
+   "causes": [
+    "An overactive thyroid"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "normal": {
+   "means": "Your free T3 is within the normal range on your report.",
+   "ask": [
+    "How often should my thyroid be checked?"
+   ]
+  }
+ },
+ "FT4": {
+  "measures": "Free T4 is the thyroid hormone that is free to work in your body.",
+  "low": {
+   "means": "Your free T4 is below the range.",
+   "causes": [
+    "An underactive thyroid"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "high": {
+   "means": "Your free T4 is above the range.",
+   "causes": [
+    "An overactive thyroid",
+    "Too much thyroid medicine"
+   ],
+   "ask": [
+    "How does this fit with my TSH?"
+   ]
+  },
+  "normal": {
+   "means": "Your free T4 is within the normal range on your report.",
+   "ask": [
+    "How often should my thyroid be checked?"
+   ]
+  }
+ },
+ "HBA1C": {
+  "measures": "HbA1c shows your average blood sugar over the past few months. Sugar sticks to red blood cells, and this test measures how much has stuck.",
+  "low": {
+   "means": "Your HbA1c is below the range.",
+   "causes": [
+    "Recent blood loss",
+    "Some blood conditions that shorten red cell life"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your HbA1c is above the target level. Your average blood sugar over the past few months has been higher than recommended.",
+   "causes": [
+    "Blood sugar that has stayed high for months",
+    "Diet high in sweets, rice or refined flour",
+    "Low physical activity",
+    "Some medicines, such as steroids"
+   ],
+   "ask": [
+    "What HbA1c target is right for me?",
+    "Do I need to start or change diabetes medicine?",
+    "How often should I check my blood sugar at home?",
+    "Should my eyes, kidneys and feet be checked?"
+   ]
+  },
+  "normal": {
+   "means": "Your HbA1c is within the normal range on your report.",
+   "ask": [
+    "How often should my HbA1c be checked?"
+   ]
+  }
+ },
+ "FBS": {
+  "measures": "Fasting glucose is your blood sugar after not eating for at least eight hours.",
+  "low": {
+   "means": "Your fasting blood sugar is below the range. Very low sugar can cause shaking, sweating or confusion.",
+   "causes": [
+    "Diabetes medicine or insulin",
+    "Skipping meals",
+    "Alcohol"
+   ],
+   "ask": [
+    "Do my diabetes medicines need changing?",
+    "What should I do if I feel shaky or sweaty?"
+   ]
+  },
+  "high": {
+   "means": "Your fasting blood sugar is above the range.",
+   "causes": [
+    "The body not using insulin well",
+    "Not fasting fully before the test",
+    "Stress or illness",
+    "Some medicines, such as steroids"
+   ],
+   "ask": [
+    "Should I have an HbA1c test?",
+    "Do I need to change my diet or medicine?"
+   ]
+  },
+  "normal": {
+   "means": "Your fasting blood sugar is within the normal range on your report.",
+   "ask": [
+    "How often should my blood sugar be checked?"
+   ]
+  }
+ },
+ "PPBS": {
+  "measures": "Post-prandial glucose is your blood sugar about two hours after a meal.",
+  "low": {
+   "means": "Your after-meal blood sugar is below the range.",
+   "causes": [
+    "Diabetes medicine or insulin",
+    "A small meal"
+   ],
+   "ask": [
+    "Do my diabetes medicines need changing?"
+   ]
+  },
+  "high": {
+   "means": "Your after-meal blood sugar is above the range. Your body is slow to bring sugar down after eating.",
+   "causes": [
+    "The body not using insulin well",
+    "A large meal high in sugar or starch",
+    "Low physical activity"
+   ],
+   "ask": [
+    "Should I have an HbA1c test?",
+    "Which foods raise my sugar the most?"
+   ]
+  },
+  "normal": {
+   "means": "Your after-meal blood sugar is within the normal range on your report.",
+   "ask": [
+    "How often should my blood sugar be checked?"
+   ]
+  }
+ },
+ "EAG": {
+  "measures": "Estimated average glucose turns your HbA1c into a blood sugar number, like one you would see on a home meter.",
+  "low": {
+   "means": "Your estimated average sugar is below the range.",
+   "causes": [
+    "Same causes as a low HbA1c"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your estimated average sugar is above the recommended level.",
+   "causes": [
+    "Blood sugar that has stayed high for months"
+   ],
+   "ask": [
+    "What average sugar should I aim for?"
+   ]
+  },
+  "normal": {
+   "means": "Your estimated average sugar is within the normal range on your report.",
+   "ask": [
+    "How often should my HbA1c be checked?"
+   ]
+  }
+ },
+ "VITD": {
+  "measures": "Vitamin D helps your body absorb calcium and keep bones and muscles strong. Your skin makes it in sunlight.",
+  "low": {
+   "means": "Your vitamin D is below the range. This is very common in India. Low levels over time can weaken bones and muscles.",
+   "causes": [
+    "Little time in direct sunlight",
+    "Covering most of the skin outdoors",
+    "Darker skin, which makes vitamin D more slowly",
+    "Age, since older skin makes less"
+   ],
+   "ask": [
+    "Do I need a vitamin D supplement, and what dose?",
+    "How long should I take it before retesting?",
+    "Should my calcium also be checked?"
+   ]
+  },
+  "high": {
+   "means": "Your vitamin D is above the range. This almost always comes from supplements.",
+   "causes": [
+    "Taking high-dose vitamin D for a long time"
+   ],
+   "ask": [
+    "Should I stop or reduce my vitamin D supplement?",
+    "Should my calcium be checked?"
+   ]
+  },
+  "normal": {
+   "means": "Your vitamin D is within the normal range on your report.",
+   "ask": [
+    "Should I keep taking any supplement I am on?"
+   ]
+  }
+ },
+ "B12": {
+  "measures": "Vitamin B12 helps make red blood cells and keeps nerves working well. It comes mostly from animal foods like milk, curd, eggs and meat.",
+  "low": {
+   "means": "Your vitamin B12 is below the range. Low B12 over time can cause tiredness, tingling in hands and feet, and memory problems.",
+   "causes": [
+    "A vegetarian diet with little milk or curd",
+    "The stomach absorbing less B12 with age",
+    "Some medicines, such as metformin or acid-reducing tablets"
+   ],
+   "ask": [
+    "Do I need B12 tablets or injections?",
+    "Could my diabetes or acidity medicine be lowering my B12?",
+    "When should I retest?"
+   ]
+  },
+  "high": {
+   "means": "Your vitamin B12 is above the range. This usually comes from supplements or injections.",
+   "causes": [
+    "B12 supplements or injections",
+    "Some liver conditions"
+   ],
+   "ask": [
+    "Should I reduce my B12 supplement?"
+   ]
+  },
+  "normal": {
+   "means": "Your vitamin B12 is within the normal range on your report.",
+   "ask": [
+    "Should I keep taking any supplement I am on?"
+   ]
+  }
+ },
+ "FERR": {
+  "measures": "Ferritin shows how much iron your body has stored for later use.",
+  "low": {
+   "means": "Your ferritin is below the range. Your body's iron stores are low. This often comes before or along with low haemoglobin.",
+   "causes": [
+    "Not enough iron in the diet",
+    "Blood loss, such as heavy periods or bleeding in the gut",
+    "The gut absorbing less iron"
+   ],
+   "ask": [
+    "Why might my iron stores be low?",
+    "Do I need iron tablets or an iron drip?",
+    "Should I be checked for blood loss from the gut?",
+    "When should I retest?"
+   ]
+  },
+  "high": {
+   "means": "Your ferritin is above the range. Ferritin rises with inflammation, not only with extra iron.",
+   "causes": [
+    "Inflammation or infection",
+    "Liver problems",
+    "Too much stored iron"
+   ],
+   "ask": [
+    "Is this from inflammation or extra iron?",
+    "Do I need more iron tests?"
+   ]
+  },
+  "normal": {
+   "means": "Your ferritin is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my haemoglobin?"
+   ]
+  }
+ },
+ "IRON": {
+  "measures": "Serum iron is the amount of iron moving in your blood right now.",
+  "low": {
+   "means": "Your blood iron is below the range.",
+   "causes": [
+    "Low iron stores",
+    "Blood loss",
+    "Inflammation"
+   ],
+   "ask": [
+    "Do I need iron tablets?"
+   ]
+  },
+  "high": {
+   "means": "Your blood iron is above the range.",
+   "causes": [
+    "Recent iron tablets",
+    "Too much stored iron"
+   ],
+   "ask": [
+    "Should I stop iron tablets before retesting?"
+   ]
+  },
+  "normal": {
+   "means": "Your blood iron is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my ferritin?"
+   ]
+  }
+ },
+ "TIBC": {
+  "measures": "TIBC shows how much iron your blood could carry. It usually goes up when iron is low.",
+  "low": {
+   "means": "Your TIBC is below the range.",
+   "causes": [
+    "Inflammation",
+    "Low protein",
+    "Too much stored iron"
+   ],
+   "ask": [
+    "How does this fit with my ferritin?"
+   ]
+  },
+  "high": {
+   "means": "Your TIBC is above the range. Your body may be trying to grab more iron.",
+   "causes": [
+    "Low iron stores",
+    "Pregnancy"
+   ],
+   "ask": [
+    "Do I need iron tablets?"
+   ]
+  },
+  "normal": {
+   "means": "Your TIBC is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my ferritin?"
+   ]
+  }
+ },
+ "FOLATE": {
+  "measures": "Folate is a B vitamin needed to make red blood cells. It comes from green leafy vegetables, dals and fruit.",
+  "low": {
+   "means": "Your folate is below the range.",
+   "causes": [
+    "Few green vegetables or dals in the diet",
+    "Alcohol",
+    "Some medicines"
+   ],
+   "ask": [
+    "Do I need a folic acid tablet?"
+   ]
+  },
+  "high": {
+   "means": "Your folate is above the range. This usually comes from supplements.",
+   "causes": [
+    "Folic acid tablets"
+   ],
+   "ask": [
+    "Should my B12 also be checked?"
+   ]
+  },
+  "normal": {
+   "means": "Your folate is within the normal range on your report.",
+   "ask": [
+    "How does this fit with my blood count?"
+   ]
+  }
+ },
+ "CRP": {
+  "measures": "CRP is a protein the liver makes when there is inflammation in the body.",
+  "low": {
+   "means": "Your CRP is below the range.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your CRP is above the range. There is some inflammation in the body. The test does not show where.",
+   "causes": [
+    "An infection",
+    "Joint or bowel inflammation",
+    "Recent injury or surgery"
+   ],
+   "ask": [
+    "What could be causing inflammation?",
+    "Should this be rechecked?"
+   ]
+  },
+  "normal": {
+   "means": "Your CRP is within the normal range on your report.",
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  }
+ },
+ "HSCRP": {
+  "measures": "hs-CRP is a more sensitive CRP test. Doctors use it to look at low-level inflammation linked to heart risk.",
+  "low": {
+   "means": "Your hs-CRP is below the range.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your hs-CRP is above the recommended level.",
+   "causes": [
+    "A recent cold or infection",
+    "Extra body weight",
+    "Smoking",
+    "Long-term inflammation"
+   ],
+   "ask": [
+    "What does this mean for my heart risk?",
+    "Should I repeat it when I am not unwell?"
+   ]
+  },
+  "normal": {
+   "means": "Your hs-CRP is within the recommended range on your report.",
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  }
+ },
+ "ESR": {
+  "measures": "ESR measures how fast red blood cells settle in a tube. It rises with inflammation.",
+  "low": {
+   "means": "Your ESR is below the range. Doctors rarely act on this result on its own.",
+   "causes": [
+    "Normal variation"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your ESR is above the range. There may be some inflammation in the body.",
+   "causes": [
+    "An infection",
+    "Joint inflammation",
+    "Low haemoglobin, which can raise ESR",
+    "Age"
+   ],
+   "ask": [
+    "What could be causing this?",
+    "Should this be rechecked?"
+   ]
+  },
+  "normal": {
+   "means": "Your ESR is within the normal range on your report.",
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  }
+ },
+ "UPROT": {
+  "measures": "This checks for protein in your urine. Kidneys that are working well keep most protein in the blood, so little or none should show up.",
+  "high": {
+   "means": "Some protein was found in your urine. A small amount can come and go, but it can also be an early sign that the kidneys are leaking protein.",
+   "causes": [
+    "Hard exercise, fever or not drinking enough water",
+    "High blood sugar over many years",
+    "High blood pressure",
+    "A urine infection"
+   ],
+   "ask": [
+    "Should I have a urine albumin-creatinine ratio (UACR) test?",
+    "Could my blood sugar or blood pressure be affecting my kidneys?",
+    "When should I repeat this urine test?"
+   ]
+  },
+  "normal": {
+   "means": "No protein was found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UGLU": {
+  "measures": "This checks for sugar in your urine. Sugar spills into urine when blood sugar is high.",
+  "high": {
+   "means": "Sugar was found in your urine. Your blood sugar may have been high when the sample was taken.",
+   "causes": [
+    "High blood sugar",
+    "Some diabetes medicines that remove sugar through urine"
+   ],
+   "ask": [
+    "Should my blood sugar be checked?",
+    "Could my medicine explain this?"
+   ]
+  },
+  "normal": {
+   "means": "No sugar was found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UKET": {
+  "measures": "Ketones are made when the body burns fat for energy instead of sugar.",
+  "high": {
+   "means": "Ketones were found in your urine.",
+   "causes": [
+    "Not eating for a long time",
+    "Very low carbohydrate diet",
+    "Very high blood sugar"
+   ],
+   "ask": [
+    "Should my blood sugar be checked today?"
+   ]
+  },
+  "normal": {
+   "means": "No ketones were found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UBLD": {
+  "measures": "This checks for blood in your urine that may be too small to see.",
+  "high": {
+   "means": "Blood was found in your urine.",
+   "causes": [
+    "A urine infection",
+    "Kidney stones",
+    "Periods",
+    "Hard exercise"
+   ],
+   "ask": [
+    "Should this urine test be repeated?",
+    "Do I need a scan?"
+   ]
+  },
+  "normal": {
+   "means": "No blood was found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "ULEU": {
+  "measures": "This checks for white blood cells in the urine, a sign the body may be fighting germs there.",
+  "high": {
+   "means": "Signs of white blood cells were found in your urine.",
+   "causes": [
+    "A urine infection",
+    "A sample that was not clean-catch"
+   ],
+   "ask": [
+    "Do I need a urine culture?"
+   ]
+  },
+  "normal": {
+   "means": "None were found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UNIT": {
+  "measures": "Nitrite in urine can be made by some germs that cause urine infections.",
+  "high": {
+   "means": "Nitrite was found in your urine.",
+   "causes": [
+    "A urine infection"
+   ],
+   "ask": [
+    "Do I need a urine culture?"
+   ]
+  },
+  "normal": {
+   "means": "No nitrite was found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UBIL": {
+  "measures": "This checks for bilirubin in the urine. It is usually not present.",
+  "high": {
+   "means": "Bilirubin was found in your urine.",
+   "causes": [
+    "Liver inflammation",
+    "A blocked bile duct"
+   ],
+   "ask": [
+    "Should my liver tests be checked?"
+   ]
+  },
+  "normal": {
+   "means": "No bilirubin was found, which matches what is expected.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "UPH": {
+  "measures": "Urine pH shows how acidic or alkaline your urine is.",
+  "low": {
+   "means": "Your urine is more acidic than usual.",
+   "causes": [
+    "High protein diet",
+    "Not drinking enough water"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your urine is more alkaline than usual.",
+   "causes": [
+    "A urine infection",
+    "Vegetarian diet"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "normal": {
+   "means": "Your urine pH is within the normal range on your report.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ },
+ "USG": {
+  "measures": "Specific gravity shows how concentrated your urine is.",
+  "low": {
+   "means": "Your urine is more dilute than usual.",
+   "causes": [
+    "Drinking a lot of water",
+    "Some water pills"
+   ],
+   "ask": [
+    "Does this need any follow-up?"
+   ]
+  },
+  "high": {
+   "means": "Your urine is more concentrated than usual.",
+   "causes": [
+    "Not drinking enough water",
+    "Sugar or protein in the urine"
+   ],
+   "ask": [
+    "Should I drink more water?"
+   ]
+  },
+  "normal": {
+   "means": "Your urine concentration is within the normal range on your report.",
+   "ask": [
+    "How often should my urine be checked?"
+   ]
+  }
+ }
+}

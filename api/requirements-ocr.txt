@@ -1,0 +1,3 @@
+# Optional: scanned reports / photos. May not have wheels for the newest Python.
+paddleocr
+pdf2image

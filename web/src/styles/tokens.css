@@ -1,0 +1,75 @@
+/* MedSimplify design tokens — light theme only. */
+:root {
+  --bg: #F6FAF7;
+  --bg-alt: #EEF5F0;
+  --surface: #FFFFFF;
+  --surface-sunk: #F2F7F3;
+  --border: #DFEAE3;
+  --border-strong: #C3D8CB;
+
+  --green-900: #0F3D28;
+  --green-700: #1B6B47;
+  --green-500: #2E9E6B;
+  --green-200: #BFE3CE;
+  --green-050: #E8F4EC;
+
+  --text: #16211B;
+  --text-muted: #5C6B62;
+  /* --text-faint is 2.9:1 on --bg: decoration only (hairline labels, dots).
+     Real caption text uses --text-caption, which clears 4.5:1. */
+  --text-faint: #8A9890;
+  --text-caption: #5F6E65;
+
+  /* Status: fills, markers, borders, icons */
+  --status-normal: #2E9E6B;
+  --status-borderline: #C8862A;
+  --status-abnormal: #D4614E;
+  --status-critical: #B3261E;
+  --status-unknown: #8A9890;
+
+  /* Status: words. The fill colours above fail 4.5:1 as text on tints,
+     so words use these darker inks. */
+  --ink-normal: #1B6B47;
+  --ink-borderline: #7E520F;
+  --ink-abnormal: #A13B2A;
+  --ink-critical: #9E1F18;
+  --ink-unknown: #56635B;
+
+  --tint-normal: #E8F4EC;
+  --tint-borderline: #FBF1E1;
+  --tint-abnormal: #FBEAE6;
+  --tint-critical: #FBE7E5;
+  --tint-unknown: #EEF1EF;
+
+  --font-display: "Rubik", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Tamil", "Noto Sans Telugu", sans-serif;
+
+  --fs-44: 2.75rem;
+  --fs-32: 2rem;
+  --fs-24: 1.5rem;
+  --fs-18: 1.125rem;
+  --fs-16: 1rem;
+  --fs-14: 0.875rem;
+
+  --r-card: 16px;
+  --r-ctl: 12px;
+  --r-chip: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 61, 40, 0.04);
+  --shadow-lg: 0 1px 2px rgba(15, 61, 40, 0.04), 0 8px 24px rgba(15, 61, 40, 0.06);
+  --shadow-xl: 0 2px 4px rgba(15, 61, 40, 0.05), 0 16px 48px rgba(15, 61, 40, 0.12);
+
+  --pad-card: 20px;
+  --gap-section: 32px;
+  --max-w: 1120px;
+  --sidebar-w: 232px;
+  --tabbar-h: 64px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --t-fast: 150ms;
+  --t-panel: 250ms;
+}
+
+@media (min-width: 640px) {
+  :root { --pad-card: 24px; }
+}

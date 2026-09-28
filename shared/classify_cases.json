@@ -1,0 +1,38 @@
+{
+  "_note": "Shared vectors run by both pytest (api/tests/test_classify.py) and vitest (web/src/lib/classify.test.ts). Deviation is distance outside the range divided by the bound that was crossed.",
+  "numeric": [
+    { "name": "Haemoglobin 10.4 (12-15)", "value": 10.4, "low": 12.0, "high": 15.0, "crit_low": 7.0, "crit_high": 20.0, "status": "low", "deviation": 0.1333 },
+    { "name": "Haemoglobin panic 6.8", "value": 6.8, "low": 12.0, "high": 15.0, "crit_low": 7.0, "crit_high": 20.0, "status": "critical_low", "deviation": 0.4333 },
+    { "name": "Haemoglobin exactly at critical 7.0", "value": 7.0, "low": 12.0, "high": 15.0, "crit_low": 7.0, "crit_high": 20.0, "status": "critical_low", "deviation": 0.4167 },
+    { "name": "Potassium 6.3 checked critical before high", "value": 6.3, "low": 3.5, "high": 5.1, "crit_low": 2.5, "crit_high": 6.0, "status": "critical_high", "deviation": 0.2353 },
+    { "name": "Potassium 5.2 just outside", "value": 5.2, "low": 3.5, "high": 5.1, "crit_low": 2.5, "crit_high": 6.0, "status": "borderline_high", "deviation": 0.0196 },
+    { "name": "Creatinine 1.1 at upper limit", "value": 1.1, "low": 0.6, "high": 1.1, "crit_low": null, "crit_high": 10.0, "status": "normal", "deviation": 0 },
+    { "name": "SGPT 46 (0-35)", "value": 46, "low": 0, "high": 35, "crit_low": null, "crit_high": null, "status": "high", "deviation": 0.3143 },
+    { "name": "LDL 171 one-sided (<100)", "value": 171, "low": null, "high": 100, "crit_low": null, "crit_high": null, "status": "high", "deviation": 0.71 },
+    { "name": "HDL 42 one-sided (>40)", "value": 42, "low": 40, "high": null, "crit_low": null, "crit_high": null, "status": "normal", "deviation": 0 },
+    { "name": "HDL 38 one-sided (>40)", "value": 38, "low": 40, "high": null, "crit_low": null, "crit_high": null, "status": "borderline_low", "deviation": 0.05 },
+    { "name": "Triglycerides 188 (<150)", "value": 188, "low": null, "high": 150, "crit_low": null, "crit_high": 1000, "status": "high", "deviation": 0.2533 },
+    { "name": "HbA1c 7.4 (<5.7)", "value": 7.4, "low": null, "high": 5.7, "crit_low": null, "crit_high": null, "status": "high", "deviation": 0.2982 },
+    { "name": "Vitamin D 14 (30-100)", "value": 14, "low": 30, "high": 100, "crit_low": null, "crit_high": null, "status": "low", "deviation": 0.5333 },
+    { "name": "B12 198 (211-911) borderline", "value": 198, "low": 211, "high": 911, "crit_low": null, "crit_high": null, "status": "borderline_low", "deviation": 0.0616 },
+    { "name": "Ferritin 8 (30-400) wide range still low", "value": 8, "low": 30, "high": 400, "crit_low": null, "crit_high": null, "status": "low", "deviation": 0.7333 },
+    { "name": "Platelets 2.6 lakh (1.5-4.1)", "value": 2.6, "low": 1.5, "high": 4.1, "crit_low": 0.2, "crit_high": 10, "status": "normal", "deviation": 0 },
+    { "name": "Platelets 0.18 lakh panic", "value": 0.18, "low": 1.5, "high": 4.1, "crit_low": 0.2, "crit_high": 10, "status": "critical_low", "deviation": 0.88 },
+    { "name": "Glucose 48 panic", "value": 48, "low": 70, "high": 100, "crit_low": 50, "crit_high": 400, "status": "critical_low", "deviation": 0.3143 },
+    { "name": "Sodium 119 panic", "value": 119, "low": 136, "high": 145, "crit_low": 120, "crit_high": 160, "status": "critical_low", "deviation": 0.125 },
+    { "name": "No range at all is unknown, never normal", "value": 12, "low": null, "high": null, "crit_low": null, "crit_high": null, "status": "unknown", "deviation": 0 },
+    { "name": "No range but past a critical threshold is still critical", "value": 7.1, "low": null, "high": null, "crit_low": 2.5, "crit_high": 6.0, "status": "critical_high", "deviation": 0 },
+    { "name": "No range and inside critical limits is unknown", "value": 4.2, "low": null, "high": null, "crit_low": 2.5, "crit_high": 6.0, "status": "unknown", "deviation": 0 },
+    { "name": "Zero lower bound falls back to width", "value": -0.5, "low": 0, "high": 10, "crit_low": null, "crit_high": null, "status": "borderline_low", "deviation": 0.05 }
+  ],
+  "qualitative": [
+    { "name": "Trace vs Nil", "value": "Trace", "expected": "Nil", "status": "borderline_high", "deviation": 1 },
+    { "name": "Nil vs Nil", "value": "Nil", "expected": "Nil", "status": "normal", "deviation": 0 },
+    { "name": "Negative vs Nil (synonyms)", "value": "Negative", "expected": "Nil", "status": "normal", "deviation": 0 },
+    { "name": "Absent vs Negative", "value": "Absent", "expected": "Negative", "status": "normal", "deviation": 0 },
+    { "name": "2+ vs Nil", "value": "2+", "expected": "Nil", "status": "high", "deviation": 3 },
+    { "name": "Positive vs Negative", "value": "Positive", "expected": "Negative", "status": "high", "deviation": 2 },
+    { "name": "Present vs Negative", "value": "Present", "expected": "Negative", "status": "high", "deviation": 2 },
+    { "name": "Unknown word stays unclassified", "value": "Pale yellow", "expected": "Negative", "status": "unknown", "deviation": 0 }
+  ]
+}
